@@ -10,4 +10,5 @@ public class ProjetNoSqlApplication {
 		SpringApplication.run(ProjetNoSqlApplication.class, args);
 	}
 
+
 }
