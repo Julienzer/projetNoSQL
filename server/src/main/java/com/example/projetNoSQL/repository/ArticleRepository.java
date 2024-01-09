@@ -1,5 +1,9 @@
 package com.example.projetNoSQL.repository;
 
 
-public class ArticleRepository {
+import com.example.projetNoSQL.domain.ArticleEntity;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+public interface ArticleRepository  extends CrudRepository<ArticleEntity, Integer> {
 }
