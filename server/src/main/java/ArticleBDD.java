@@ -1,11 +1,8 @@
 import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
-@Table
+@Document(collection = "articles")
 public class ArticleBDD {
 
     @Id

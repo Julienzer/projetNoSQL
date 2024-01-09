@@ -2,6 +2,7 @@ package com.example.projetNoSQL.domain;
 
 public class ArticleEntity {
 
+    eza
     String Nom;
     String Description;
     Float Prix;
