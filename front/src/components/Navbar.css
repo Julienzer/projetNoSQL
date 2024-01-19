@@ -1,0 +1,30 @@
+/* SimpleNavbar.css */
+nav {
+    background-color: #2d6037;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover,
+a:visited,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: white;
+}
