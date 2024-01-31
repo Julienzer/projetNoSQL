@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fcdbfc6-adba-42d7-ad61-8e1279aeaf16" name="Changes" comment="dependencise BDD" />
+    <list id="a39f6b3e-eb7b-4ff5-8d7d-e52a730ed625" name="Unversioned Changes" comment="Unversioned Changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="back-end" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cleluke&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="efc8ab34-9ca3-42b7-9009-dd0f15b38a18" />
+        <option name="url" value="https://github.com/Julienzer/projetNoSQL.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YXehMCKJDh1WztRNENYl723AS9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/cleme/IdeaProjects/projetNoSQL",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ProjetNoSqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="projetNoSQL" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projetNoSQL.ProjetNoSqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fcdbfc6-adba-42d7-ad61-8e1279aeaf16" name="Changes" comment="" />
+      <changelist id="a39f6b3e-eb7b-4ff5-8d7d-e52a730ed625" name="Unversioned Files" comment="" />
+      <created>1700676469999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700676469999</updated>
+      <workItem from="1700676471043" duration="709000" />
+      <workItem from="1700817399966" duration="269000" />
+      <workItem from="1700817945878" duration="13000" />
+      <workItem from="1700817972329" duration="284000" />
+      <workItem from="1700818448913" duration="54000" />
+      <workItem from="1701424040773" duration="2472000" />
+      <workItem from="1701426562066" duration="4595000" />
+      <workItem from="1701438833095" duration="3738000" />
+      <workItem from="1701682154396" duration="212000" />
+      <workItem from="1702305977967" duration="24000" />
+      <workItem from="1702317878219" duration="2129000" />
+      <workItem from="1702369009381" duration="576000" />
+      <workItem from="1704817744826" duration="6680000" />
+      <workItem from="1705049411334" duration="14000" />
+      <workItem from="1705409211854" duration="20000" />
+      <workItem from="1706539364712" duration="93000" />
+      <workItem from="1706604887417" duration="1302000" />
+      <workItem from="1706606376624" duration="2924000" />
+      <workItem from="1706704562603" duration="595000" />
+      <workItem from="1706716765764" duration="2417000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creation Entity et du Repo">
+      <option name="closed" value="true" />
+      <created>1702318902452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702318902452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creation Entity et du Repo">
+      <option name="closed" value="true" />
+      <created>1704818892666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704818892666</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creation Entity et du Repo">
+      <option name="closed" value="true" />
+      <created>1704819725116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704819725116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit test">
+      <option name="closed" value="true" />
+      <created>1704820320827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704820320827</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dependencise BDD">
+      <option name="closed" value="true" />
+      <created>1706718305763</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706718305763</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation Entity et du Repo" />
+    <MESSAGE value="commit test" />
+    <MESSAGE value="dependencise BDD" />
+    <MESSAGE value="Unversioned Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unversioned Changes" />
+  </component>
+</project>
