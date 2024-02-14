@@ -13,7 +13,7 @@ public class Article {
     @Field(name = "_id")
     private ObjectId id;
 
-    @Field (name = "name")
+    @Field (name = "nom")
     private String nom;
 
     @Field (name = "description")

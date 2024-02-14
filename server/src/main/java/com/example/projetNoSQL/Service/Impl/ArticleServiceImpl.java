@@ -10,6 +10,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Implementation de {@link ArticleService}
+ */
 @Service
 public class ArticleServiceImpl implements ArticleService {
 
@@ -21,8 +24,8 @@ public class ArticleServiceImpl implements ArticleService {
         return articleRepository.findAll();
     }
 
-    public Optional<Article> getOneArticle(ObjectId id){
-        return articleRepository.findById(id);
+    public Optional<Article> getOneArticleByNom(String nom){
+        return articleRepository.findOneByNom(nom);
     }
 
     public Article createArticle(Article article){

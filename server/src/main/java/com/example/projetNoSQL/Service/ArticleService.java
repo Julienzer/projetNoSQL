@@ -9,7 +9,7 @@ import java.util.Optional;
 public interface ArticleService {
     List<Article> getAllArticle();
 
-    Optional<Article> getOneArticle(ObjectId id);
+    Optional<Article> getOneArticleByNom(String nom);
 
     Article createArticle(Article article);
 

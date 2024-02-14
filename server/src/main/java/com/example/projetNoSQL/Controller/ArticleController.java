@@ -3,8 +3,6 @@ package com.example.projetNoSQL.Controller;
 import com.example.projetNoSQL.Service.Impl.ArticleServiceImpl;
 import com.example.projetNoSQL.dao.Article;
 import org.bson.types.ObjectId;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,9 +13,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:5173")
 public class ArticleController {
-
-    private final Logger logger = LoggerFactory.getLogger(ArticleController.class);
 
     @Autowired
     private ArticleServiceImpl articleService;
@@ -27,9 +24,9 @@ public class ArticleController {
         return new ResponseEntity<>(articleService.getAllArticle(), HttpStatus.OK);
     }
 
-    @GetMapping("/article/{id}")
-    public  ResponseEntity<Optional<Article>> getOneArticle(@PathVariable ObjectId id){
-        return new ResponseEntity<>(articleService.getOneArticle(id), HttpStatus.OK);
+    @GetMapping("/article/{nom}")
+    public  ResponseEntity<Optional<Article>> getOneArticle(@PathVariable String nom){
+        return new ResponseEntity<>(articleService.getOneArticleByNom(nom), HttpStatus.OK);
     }
 
     @PostMapping("/create")
