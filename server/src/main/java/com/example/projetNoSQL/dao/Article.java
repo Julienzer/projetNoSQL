@@ -1,12 +1,10 @@
-package com.example.projetNoSQL;
+package com.example.projetNoSQL.dao;
 
-import jdk.jfr.DataAmount;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-import java.util.Objects;
 
 @Document(collection = "article")
 public class Article {
