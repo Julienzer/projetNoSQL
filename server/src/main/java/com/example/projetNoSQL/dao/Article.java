@@ -5,9 +5,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import java.io.Serializable;
+
 
 @Document(collection = "article")
-public class Article {
+public class Article implements Serializable {
 
     @Id
     @Field(name = "_id")

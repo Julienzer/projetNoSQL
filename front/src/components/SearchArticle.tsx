@@ -1,5 +1,4 @@
-// components/SearchArticle.tsx
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const SearchArticle: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -9,7 +8,15 @@ const SearchArticle: React.FC = () => {
 
     // Ajouter ici le code pour traiter la recherche côté front-end
     console.log('Search term:', searchTerm);
-  };
+  }; 
+
+  useEffect(() => {
+    if (searchTerm !== '') {
+      fetch(`http://localhost:8080/api/article/${searchTerm}`)
+        .then((res) => res.json())
+        .then((data) => console.log(data));
+    }
+  }, [searchTerm]);
 
   return (
     <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '20px' }}>
