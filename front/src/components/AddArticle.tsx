@@ -33,8 +33,8 @@ const AddArticle: React.FC = () => {
 
 
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '20px'}}>
-      <h2 style={{ textAlign: 'center', marginBottom:20}}>Ajouter un article</h2>
+    <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '20px' }}>
+      <h2 style={{ textAlign: 'center', marginBottom: 20 }}>Ajouter un article</h2>
       <form onSubmit={handleAddArticle} style={{ display: 'flex', flexDirection: 'column' }}>
         <label style={{ display: 'flex', flexDirection: 'column', marginBottom: '10px' }}>
           Nom de l'article :
