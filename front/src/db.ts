@@ -1,4 +1,4 @@
-// db.ts
+/* db.ts
 import { MongoClient } from 'mongodb';
 
 const uri = 'mongodb://localhost:27017/';
@@ -14,4 +14,4 @@ export async function connectToDatabase() {
     console.error('Error connecting to the database', error);
     throw error;
   }
-}
+}*/
