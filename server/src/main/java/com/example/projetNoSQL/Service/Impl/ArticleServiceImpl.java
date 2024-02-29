@@ -25,7 +25,6 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     public Optional<Article> getOneArticleByNom(String nom){
-        System.out.println("called getOneArticleByNom() from DB");
         return articleRepository.findOneByNom(nom);
     }
 

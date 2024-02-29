@@ -27,7 +27,7 @@ public class ArticleController {
         return new ResponseEntity<>(articleService.getAllArticle(), HttpStatus.OK);
     }
 
-    @Cacheable(value = "Article", key = "#nom")
+    //@Cacheable(value = "article", key = "#nom") mets en cache l'article dans la base redis
     @GetMapping("/article/{nom}")
     public  ResponseEntity<Optional<Article>> getOneArticle(@PathVariable String nom){
         return new ResponseEntity<>(articleService.getOneArticleByNom(nom), HttpStatus.OK);
