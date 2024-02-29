@@ -11,6 +11,6 @@ Un projet de gestion de stock pour un magasin, avec une base de données MongoDb
    ```bash
    npm run dev
 
-### Front-end
+### Back-end
 1. Lancez la partie back-end avec IntelliJ IDEA.    
 2. Exécutez la partie back-end en lançant le main du projet.
